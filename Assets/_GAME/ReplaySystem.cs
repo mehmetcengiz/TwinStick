@@ -1,7 +1,6 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Assets {
+namespace Assets._GAME {
 	public class ReplaySystem : MonoBehaviour {
 		private const int BufferFrames = 1000;
 		private readonly MyKeyFrame[] _keyFrames = new MyKeyFrame[BufferFrames];
